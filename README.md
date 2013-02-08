@@ -12,7 +12,7 @@ There are a few dependencies you will need to run the code.
 - Navigate to the source directory. Install the needed packages
 `npm install`
 - Use browserify to bundle the javascript source into a single file that iMacros understands
-`browserify lib\search.js -o dist\search.js`
+`browserify test\test-fill-search-fails-on-incorrect-page.js -o dist\test-fill-search-fails-on-incorrect-page.js`
 In Firefox load the iMacros extension and click *Edit*->*Options*. Then under *Paths* set *Folder Macros* to the *dist* folder containing search.js. Restart Firefox
 
 
