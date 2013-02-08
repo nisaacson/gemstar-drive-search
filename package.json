@@ -1,0 +1,27 @@
+{
+  "name": "gemstar-drive-search",
+  "version": "1.0.0",
+  "description": "Uses iMacros for Firefox to search for serial numbers and download the results to a file on disk",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/gemstar-drive-search.git"
+  },
+  "keywords": [
+    "imacros",
+    "search"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "06555dbf19192070f2794ed9bf2063232550f993",
+  "dependencies": {
+    "should": "~1.2.1"
+  }
+}
