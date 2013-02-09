@@ -1,6 +1,6 @@
 # Gemstar Searial Numbers
 Uses iMacros for Firefox to search for serial numbers and download the results to a file on disk.
-
+[![Dependency Status](http://david-dm.org/nisaacson/gemstar-drive-search/status.png)](http://david-dm.org/nisaacson/gemstar-drive-search)
 ## Installation
 There are a few dependencies you will need to run the code.
 

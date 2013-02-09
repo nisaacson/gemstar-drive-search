@@ -6,9 +6,8 @@ var should = require('should');
 
 // Configuration
 var config = {
-  folderPath: 'C:\gemstar\\'
+  folderPath: '~/Downloads/'
 };
-
 main();
 function main() {
   var searchInputs = ['foo', 'bar'];
@@ -17,6 +16,7 @@ function main() {
     config: config,
     searchInputs: searchInputs
   };
+
   var err = search(data);
   should.not.exist(err);
 }
