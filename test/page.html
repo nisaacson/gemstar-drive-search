@@ -1,0 +1,562 @@
+<!-- $Id: //depot/csp/java/arc2/web/search.jsp#3 $ -->
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+<html>
+
+<head>
+<title>Gemstar Archive</title>
+</head>
+
+<body>
+
+<h1> Search for archived Gemstar files </h1>
+<p/> You are browsing the new SuZhou Archive server
+<hr>
+
+<form name="search" id="search" action="/csparc2/search.action" method="post">
+	Please specify one of the following:
+	<p/>TUID: <input type="text" name="tuid" size="10" id="search_tuid"></input>
+	<p/>or
+	<p/>Drive serial number: <input type="text" name="serialNumber" size="10" value="W3700TQA" id="search_serialNumber"></input>
+        <!-- <meta HTTP-EQUIV="REFRESH" content="2; url=http://col-rel-csparc.colo.seagate.com/csparc2/search.action?serialNumber=%{serialNumber}"> -->
+        <!-- <a id="search_" href="http://col-rel-csparc.colo.seagate.com/csparc2/search.action?serialNumber=W3700TQA">(Link to new LCO server!)</a> -->
+        <p/>or
+	<p/>Chamber name: <input type="text" name="chamber" size="20" id="search_chamber"></input>
+	<br/>Cell index: <input type="text" name="cellIndex" size="4" id="search_cellIndex"></input>
+	<br/>Tray index: <input type="text" name="trayIndex" size="4" id="search_trayIndex"></input><br/>
+	<p/>Options:
+	<p/><input type="checkbox" name="showAllTags" value="true" id="search_showAllTags"></input><input type="hidden" id="__checkbox_search_showAllTags" name="__checkbox_showAllTags" value="__checkbox_true"></input>show all tags
+	<br/><input type="checkbox" name="noTimeTag" value="true" id="search_noTimeTag"></input><input type="hidden" id="__checkbox_search_noTimeTag" name="__checkbox_noTimeTag" value="__checkbox_true"></input>omit timestamp and tag
+	<br/><input type="checkbox" name="showComplete" value="true" id="search_showComplete"></input><input type="hidden" id="__checkbox_search_showComplete" name="__checkbox_showComplete" value="__checkbox_true"></input>show complete log
+	<p/><input type="submit" value="Search" id="search_0"></input>
+</form>
+
+<!-- $Id: //depot/csp/java/arc2/web/tags.jsp#1 $ -->
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	<hr>
+
+	
+	
+		<p>Found the following archived files for
+
+		
+			serial number: <b>W3700TQA</b>
+		
+		
+
+		<p><table border>
+			<tr><td><b>Test Start Time</b></td><td><b>TUID</b></td><td><b>Script</b></td><td><b>View File</b></td><td><b>Download File</b></td><td><b>Data Files</b></td><td><b>Launch Log Analyzer</b></td><tr>
+				
+					<tr>
+						<td><p>
+							01/21/13 23:29:30
+						</td>
+						<td>
+							Ignore
+						</td>
+						<td>
+							quick_start_02_02_00
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1358836170000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/24/13 18:54:09
+						</td>
+						<td>
+							Ignore
+						</td>
+						<td>
+							BUP_I1InitNVC_cleanup_06_00_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359078849000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/24/13 19:03:03
+						</td>
+						<td>
+							COL2013-0036
+						</td>
+						<td>
+							code_flash_06_01_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079383000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/24/13 19:13:16
+						</td>
+						<td>
+							COL2013-0040
+						</td>
+						<td>
+							code_flash_06_01_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359079996000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/24/13 19:23:35
+						</td>
+						<td>
+							Ignore
+						</td>
+						<td>
+							BUP_I1InitNVC_cleanup_06_00_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359080615000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/24/13 19:46:14
+						</td>
+						<td>
+							Ignore
+						</td>
+						<td>
+							BUP_I1InitNVC_cleanup_06_00_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359081974000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/25/13 18:00:19
+						</td>
+						<td>
+							G162945_53027
+						</td>
+						<td>
+							BUPrev1_rdt_pre_05_00_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+								no data files
+							
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359162019000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+					<tr>
+						<td><p>
+							01/26/13 10:58:06
+						</td>
+						<td>
+							G162945_53027
+						</td>
+						<td>
+							rdt_merged_nb_05_00_fl
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsHtml=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td>
+							<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true">.txt</a>,
+	
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rep">.rep</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=cap">.cap</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=sum">.sum</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=mis">.mis</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=chn">.chn</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=rbf">.rbf</a>,
+							
+								<a href="/csparc2/printFile.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false&amp;printFileAsDownloadableText=true&amp;tags=wbf">.wbf</a>,
+							
+						</td>
+						<td align=center>
+							
+							
+								<a href="http://10.40.1.35//csp/csp-archive/W3/70/0T/QA/W3700TQA-1359223086000">...</a>
+							
+						</td>
+						<td align=center>
+							<a href="/csparc2/logAnalyzer.action?serialNumber=W3700TQA&amp;chamber=&amp;cellIndex=&amp;trayIndex=&amp;startTime=1359223086000&amp;noTimeTag=false&amp;showComplete=false">...</a>
+						</td>
+					</tr>
+			
+		</table>
+	
+
+
+<!-- $Id: //depot/csp/java/arc2/web/footer.jsp#1 $ -->
+
+
+
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.reli.colo.seagate.com/csp/gemstar.ico">
+
+<hr>
+
+<address> <a href="/csparc2/search.action">Home</a>  / <a href="mailto:anton.solovyev@seagate.com">Contact support</a> / <a href="http://www.reli.colo.seagate.com/csp/wiki/">Help</a>
+
+
+</body>
+
+</html>
